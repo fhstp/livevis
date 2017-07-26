@@ -1,0 +1,65 @@
+@font-face {
+    font-family: Brandon_Regular_font;
+    src: local(Brandon_reg_font), url('../fonts/Brandon_reg.otf') format('opentype');
+}
+
+@font-face {
+    font-family: Walkway_UltraBold_font;
+    src: local(Walkway_UltraBold_font), url('../fonts/Walkway_UltraBold.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: Walkway_Bold_font;
+    src: local(Walkway_Bold_font), url('../fonts/Walkway_Bold.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: Walkway_SemiBold_font;
+    src: local(Walkway_SemiBold_font), url('../fonts/Walkway_SemiBold.ttf') format('opentype');
+}
+
+.bubbleContainer{
+    width: 100vw;
+    height:100vh;
+    cursor: none;
+}
+
+#vis {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+#keyword {
+    width: 80%;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 0;
+}
+
+#keywordText {
+    font-size: 100px;
+    font-family: Brandon_Regular_font;
+
+    background: none repeat scroll 0 0 #000000;
+    color: #514D4F;
+/*    text-transform: uppercase;*/
+    /*text-shadow:
+            0 0 10px #FFFFFF,
+            0 0 20px #FFFFFF,
+            0 0 30px #FFFFFF;
+            /*0 0 40px #FF0000,*/
+            /*0 0 70px #FF0000,*/
+            /*0 0 80px #FF0000,*/
+            /*0 0 100px #FF0000,*/
+            /*0 0 150px #FF0000;*/
+}
+
+.simulation {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+}

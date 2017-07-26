@@ -1,0 +1,15 @@
+{
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "91.219.68.131",
+  "target": "/var/www/ctv/",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "watch": [],
+  "transport": "scp",
+  "username": "manage",
+  "password": "25rasounar#m"
+}
